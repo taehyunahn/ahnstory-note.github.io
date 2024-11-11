@@ -7,6 +7,7 @@ body {
   color: #333;
   word-break: keep-all;
   word-wrap: break-word;
+  padding-top: 70px;
 }
 
 // 포스트 본문 스타일
@@ -29,5 +30,68 @@ body {
   p {
     margin-bottom: 1.5em;
     font-size: 16px;
+  }
+}
+
+// 헤더 스타일
+.site-header {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.header-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  text-decoration: none;
+
+  &:hover {
+    color: #007bff;
+  }
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.5rem;
+
+  .nav-link {
+    color: #666;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      color: #007bff;
+    }
+  }
+}
+
+// 모바일 반응형
+@media screen and (max-width: 768px) {
+  .header-wrapper {
+    flex-direction: column;
+    padding: 0.5rem 20px;
+  }
+
+  .site-nav {
+    margin-top: 0.5rem;
+    gap: 1rem;
+  }
+
+  body {
+    padding-top: 100px;
   }
 }
