@@ -14,7 +14,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Taehyunahn # 메인 제목을 본인의 블로그 제목으로 변경
+title: Taehy # 메인 제목을 본인의 블로그 제목으로 변경
 
 tagline: 개발 블로그 # 부제목 변경
 
@@ -23,10 +23,10 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://taehyunahn.github.io" # 본인의 GitHub Pages URL
+url: "https://taehyunahn.github.io" # GitHub Pages URL 수정
 
 github:
-  username: taehyunahn # 본인의 GitHub 사용자명
+  username: taehyunahn # GitHub 사용자명 수정
 
 twitter:
   username: # 트위터 계정이 없다면 비워두세요
@@ -34,12 +34,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Taehyun Ahn # 실제 이름
-  email: taehyun225@gmail.com # 본인 이메일
+  name: Taehy Kim # 실제 이름
+  email: dev.taehy@gmail.com # 본인 이메일
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # 트위터 미사용시 주석처리
-    - https://github.com/taehyunahn
+    - https://github.com/taehyunahn # GitHub 링크 수정
     # 필요한 소셜 링크 추가 가능
     # - https://www.linkedin.com/in/username
 
